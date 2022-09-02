@@ -1,7 +1,5 @@
 /*eslint linebreak-style: ["error", "windows"]*/
 
-//const assertEqual = require('./assertEqual.js');
-
 const eqArrays = function(arr1,arr2) {
   if (Array.isArray(arr1) && Array.isArray(arr2) === false)
     return false;
